@@ -13,4 +13,5 @@ fun main() {
 
     //2025
     age = 30
+    age = "Bernardo"
 }
