@@ -52,7 +52,8 @@ enum class Direction(val description: String) {
 
 fun main() {
 
-//    val north = Direction.NORTH
+    val north = Direction.NORTH
+
 //    println(north.ordinal)
 //    println(north.name)
 //    println(north.description)
