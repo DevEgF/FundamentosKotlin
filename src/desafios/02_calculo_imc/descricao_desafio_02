@@ -1,0 +1,43 @@
+DESCRIÇÃO DO DESAFIO 02 - CALCULO DE IMC
+
+Neste desafio, você será encarregado de desenvolver uma aplicação em Kotlin  que calcula o
+Índice de Massa Corporal (IMC) de um usuário a partir dos dados fornecidos de peso e altura.
+O Objetivo é criar uma aplicação interativa, onde o usuário poderá inserir seu peso (em quilogramas)
+e altura (em metros) e, em seguida, receberá seu IMC juntamente com uma classificação de acordo com os.
+padrões da Organização Mundial da Saúde (OMS).
+
+REQUISITOS
+
+ENTRADA DE DADOS:
+
+- O usuário deve poder inserir seu peso em quilogramas (kg).
+- O usuário deve poder inserir sua altura em metros (m).
+
+PROCESSAMENTO:
+
+1) Cálculo do IMC:
+
+A fórmula para calcular o IMC é:
+    IMC = peso / (altura ˆ 2)
+
+2) Classificação do IMC:
+
+O IMC calculado deve ser classificado conforme os critérios da OMS:
+    - Abaixo de 18.5: Abaixo do peso
+    - Entre 18.5 e 24.9: Peso normal
+    - Entre 25 e 29.9: Sobrepeso
+    - Entre 30 e 34.9: Obesidade Grau I
+    - Entre 35 e 39.9: Obesidade Grau II
+    - Acima de 40: Obesidade Grau III
+
+SAÍDA DE DADOS:
+
+A aplicação deve validar as entradas do usuário, garantindo que peso e altura sejam números positivos
+e plausíveis. Retornar visualmente a classificação de forma simples e intuitiva.
+
+EXEMPLO DE FUNCIONAMENTO
+
+- O usuário insere o peso 80 (kg).
+- O usuário insere a altura 1.75 (m).
+- A aplicação calcula o IMC: 80 / (1,75 ˆ 2) = 26,12.
+- Como 26,12 esté entre 18.5 e 24.9, a aplicação informa que a classificação é "Sobrepeso".
